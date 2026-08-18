@@ -13,6 +13,7 @@ mkdir -p "$TARGET_DIR/backgrounds"
 
 cp "$SCRIPT_DIR/colors.toml" "$TARGET_DIR/"
 cp "$SCRIPT_DIR/icons.theme" "$TARGET_DIR/"
+cp "$SCRIPT_DIR/hyprland.lua" "$TARGET_DIR/"
 cp -r "$SCRIPT_DIR/backgrounds"/* "$TARGET_DIR/backgrounds/"
 
 if command -v omarchy-theme-set >/dev/null 2>&1; then
