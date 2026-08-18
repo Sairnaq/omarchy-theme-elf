@@ -1,0 +1,133 @@
+# Omarchy shell surfaces for Elf Theme with frosted glass translucency.
+
+[bar]
+background       = "#00070d"
+background-alpha = 0.88
+text             = "#ECF0E9"
+active           = "#b67443"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
+
+[hyprland]
+active-border            = "#7fa961"
+active-border-foreground = "#ECF0E9"
+
+[controls]
+normal-color        = "#ECF0E9"
+normal-fill-alpha   = 0.06
+normal-border       = "#ECF0E9"
+normal-border-width = 1
+normal-border-alpha = 0.35
+
+hover-cursor-color        = "#ECF0E9"
+hover-cursor-fill-alpha   = 0.12
+hover-cursor-border       = "#7fa961"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.45
+
+focus-color        = "#ECF0E9"
+focus-fill-alpha   = 0.12
+focus-border       = "#7fa961"
+focus-border-width = 1
+focus-border-alpha = 0.45
+
+selected-color        = "#ECF0E9"
+selected-fill-alpha   = 0.22
+selected-border       = "#7fa961"
+selected-border-width = 0
+selected-border-alpha = 1.0
+
+pressed-fill-alpha   = 0.25
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background       = "#00070d"
+background-alpha = 0.88
+text             = "#ECF0E9"
+border           = "#7fa961"
+border-alpha     = 1.0
+
+[tooltip]
+background       = "#00070d"
+background-alpha = 0.90
+text             = "#ECF0E9"
+border           = "#7fa961"
+border-alpha     = 0.8
+
+[notifications]
+background       = "#00070d"
+background-alpha = 0.88
+text             = "#ECF0E9"
+border           = "#7fa961"
+border-alpha     = 1.0
+countdown        = "#7fa961"
+
+[launcher]
+background                = "#00070d"
+background-alpha          = 0.88
+text                      = "#ECF0E9"
+border                    = "#7fa961"
+border-alpha              = 1.0
+scrim                     = "#00070d"
+scrim-alpha               = 0.5
+selected-background       = "#ECF0E9"
+selected-background-alpha = 0.12
+selected-text             = "#7fa961"
+selected-border           = "#7fa961"
+selected-border-alpha     = 0.5
+
+[menu]
+background                = "#00070d"
+background-alpha          = 0.88
+text                      = "#ECF0E9"
+border                    = "#7fa961"
+border-alpha              = 1.0
+scrim                     = "#00070d"
+scrim-alpha               = 0.5
+selected-background       = "#ECF0E9"
+selected-background-alpha = 0.12
+selected-text             = "#7fa961"
+selected-border           = "#7fa961"
+selected-border-alpha     = 0.5
+
+[polkit]
+background       = "#00070d"
+background-alpha = 0.90
+text             = "#ECF0E9"
+text-error       = "#b67443"
+border           = "#7fa961"
+border-error     = "#b67443"
+border-alpha     = 1.0
+scrim            = "#00070d"
+scrim-alpha      = 0.5
+accent           = "#7fa961"
+
+[lock]
+background       = "#00070d"
+background-alpha = 0.80
+text             = "#ECF0E9"
+placeholder      = "#9ca19e"
+text-error       = "#b67443"
+border           = "#7fa961"
+border-active    = "#7fa961"
+border-error     = "#b67443"
+border-alpha     = 1.0
+selection        = "#7fa961"
+selection-alpha  = 0.45
+
+[image-picker]
+scrim                   = "#00070d"
+scrim-alpha             = 0.5
+text                    = "#ECF0E9"
+selected-border         = "#7fa961"
+selected-border-alpha   = 1.0
+unselected-border       = "#ECF0E9"
+unselected-border-alpha = 0.28
